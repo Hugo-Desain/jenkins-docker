@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = 'monsite-Docker'
-        CONTAINER_NAME = 'monsite-Docker-conteneur'
+        IMAGE_NAME = 'monsite-docker'
+        CONTAINER_NAME = 'monsite-docker-conteneur'
     }
 
     stages {
